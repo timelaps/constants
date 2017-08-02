@@ -1,0 +1,1 @@
+module.exports = Number.MAX_INTEGER;
