@@ -1,1 +1,1 @@
-module.exports = 4294967295;//Math.pow(2, 53) - 1
+module.exports = 4294967295;
