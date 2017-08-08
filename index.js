@@ -3,5 +3,6 @@ module.exports = {
     MAX_ARRAY_INDEX: require('./max-array-index'),
     MAX_INTEGER: require('./max-integer'),
     BASE_TYPES: require('./base-types'),
-    NON_ENUMERABLES: require('./non-enumerables')
+    NON_ENUMERABLES: require('./non-enumerables'),
+    ENUM_BUG: require('./enum-bug')
 };
