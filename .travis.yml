@@ -16,3 +16,5 @@ install:
 - npm ci
 before_install:
 - npm i -g npm@latest
+after_success:
+  - codecov

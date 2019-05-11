@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npm run clean && tsc",
-    "clean": "rm -rf ./dist",
-    "test": "npm run build && jest && codecov",
+    "clean": "rm -rf ./dist ./coverage",
+    "test": "npm run build && jest",
     "share": "npm version patch && git push && npm publish"
   },
   "repository": {
