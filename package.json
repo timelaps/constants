@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
-    "test": "npm run build && jest --runInBand && jest-coverage-badges",
+    "test": "npm run build && jest && codecov",
     "share": "npm version patch && git push && npm publish"
   },
   "repository": {
@@ -22,9 +22,9 @@
   "devDependencies": {
     "@types/jest": "^24.0.12",
     "@types/node": "^12.0.0",
+    "codecov": "^3.4.0",
     "jest": "^24.8.0",
     "jest-chain": "^1.1.2",
-    "jest-coverage-badges": "^1.1.2",
     "jest-extended": "^0.11.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
