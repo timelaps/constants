@@ -6,3 +6,4 @@
 ![Coverage functions](./coverage/badge-functions.svg)
 ![Coverage branches](./coverage/badge-branches.svg)
 ![Coverage statements](./coverage/badge-statements.svg)
+
