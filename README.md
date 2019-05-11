@@ -2,8 +2,6 @@
 
 ### Coverage
 
-![Coverage lines](./coverage/badge-lines.svg)
-![Coverage functions](./coverage/badge-functions.svg)
-![Coverage branches](./coverage/badge-branches.svg)
-![Coverage statements](./coverage/badge-statements.svg)
-
+| Statements | Branches | Functions | Lines |
+| -----------|----------|-----------|-------|
+| ![Statements](#statements# "Make me better!") | ![Branches](#branches# "Make me better!") | ![Functions](#functions# "Make me better!") | ![Lines](#lines# "Make me better!") |
