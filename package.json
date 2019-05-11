@@ -2,7 +2,7 @@
   "name": "@timelaps/constants",
   "version": "1.0.7",
   "description": "constants for finding objects",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
