@@ -6,6 +6,7 @@ module.exports = {
     "text",
     "clover"
   ],
+  "runInBand": true,
   "collectCoverage": true,
   "setupFilesAfterEnv": ["jest-extended", "jest-chain"],
   "roots": [
