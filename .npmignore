@@ -3,3 +3,7 @@
 .gitignore
 coverage/*
 node_modules/*
+src/*
+dist/**/*.test.*
+jest.config.js
+tsconfig.json
