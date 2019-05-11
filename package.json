@@ -21,18 +21,18 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "jest && jest-badges-readme && git add 'README.md'"
+      "pre-commit": "npm t && jest-coverage-badges"
     }
   },
   "homepage": "https://github.com/timelaps/constants#readme",
   "devDependencies": {
-    "@olavoparno/jest-badges-readme": "^1.3.4",
     "@types/jest": "^24.0.12",
     "@types/node": "^12.0.0",
     "codecov": "^3.4.0",
     "husky": "^2.2.0",
     "jest": "^24.8.0",
     "jest-chain": "^1.1.2",
+    "jest-coverage-badges": "^1.1.2",
     "jest-extended": "^0.11.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
