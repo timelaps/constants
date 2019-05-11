@@ -4,7 +4,6 @@
   "description": "constants for finding objects",
   "main": "dist/index.js",
   "scripts": {
-    "make-badges": "jest-badges-readme --coverageDir='./coverage'",
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist ./coverage",
     "test": "npm run build && jest",
