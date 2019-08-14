@@ -1,12 +1,13 @@
 {
   "name": "@timelaps/constants",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "constants for finding objects",
   "main": "dist/index.js",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist ./coverage",
     "test": "npm run build && jest --runInBand",
+    "badges": "jest-coverage-badges",
     "share": "npm version patch && git push && npm publish"
   },
   "repository": {
@@ -20,7 +21,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm t && jest-coverage-badges"
+      "pre-commit": "npm t && npm run badges"
     }
   },
   "homepage": "https://github.com/timelaps/constants#readme",
