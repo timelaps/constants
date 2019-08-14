@@ -12,9 +12,5 @@ node_js:
 - 11
 git:
   depth: 1
-install:
-- npm ci
-before_install:
-- npm i -g npm@latest
 after_success:
-  - codecov
+- codecov
